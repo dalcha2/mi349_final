@@ -1,5 +1,4 @@
 body{
-    background-color: whitesmoke;
     color: #fff;
     text-align: center;
 }
@@ -18,7 +17,7 @@ header, nav, section{
 }
 
 header{
-    background-color: darkgreen;
+    background-color: rgb(3, 87, 3);
     height: 70px;
 }
 
@@ -39,12 +38,12 @@ section{
 article{
     width: 90%;
     margin: 20px;
-    background-color:lightgrey;
+    background-color:rgb(204, 198, 198);
 }
 
 #navigation{
     font-size: 20px;
-    color: lightcoral;
+    color: rgb(218, 120, 120);
 }
 
 #navigation ul{
@@ -79,9 +78,33 @@ section ul li{
 
 #Koreaflag{
     width: 450px;
+    border-radius: 20%;
 }
 
 #art{
     width: 400px;
     height: 300px;
+}
+
+#art2{
+    width: 90%;
+    vertical-align: top;
+}
+#chatbox{
+    float:left;
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:680px;
+    border:1px solid #ACD8F0;
+}
+.textbox{
+    width: 80%;
+}
+
+.button{
+    width: 10%;
 }
