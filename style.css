@@ -86,25 +86,51 @@ section ul li{
     height: 300px;
 }
 
-#art2{
-    width: 90%;
-    vertical-align: top;
+form,p,span{
+    margin:0;
+    padding:0;
 }
+
+input{
+    font:12px arial;
+}
+
+a{
+    color:#0000FF;
+    text-decoration:none;
+}
+
+a:hover{text-decoration: underline;}
+
+#wrapper{
+    margin: 0 auto;
+    padding-bottom:25px;
+    background: #ebf4fb;
+    width:700px;
+    border:1px solid #ACD8F0;}
+
 #chatbox{
-    float:left;
     text-align:left;
     margin:0 auto;
     margin-bottom:25px;
     padding:10px;
     background:#fff;
     height:270px;
-    width:680px;
+    width:580px;
     border:1px solid #ACD8F0;
-}
-.textbox{
-    width: 80%;
+    overflow: auto;
 }
 
-.button{
-    width: 10%;
+#textbox{
+width:395px;
+border:1px solid #ACD8F0;
 }
+
+#submitbox{
+width:60px;
+}
+#menu{padding: 12.5px 25px 12.5px 25px;}
+.welcome{float: left;}
+
+
+
