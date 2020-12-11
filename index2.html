@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -23,16 +24,12 @@
             </ul>
         </nav>
         <section>
-            <div id="wrapper">
-                <div id="menu">
-                    <p class="CommunityChat">Welcome, Guest <b></b></p>
-                </div>
-
-                <div id="chatbox"></div>
-
-                    <input type="text" id="textbox">
-                    <button id="submitbox" onclick="getMessage()">Send</button>
-            </div>
+            <div class="members-count">-</div>
+            <div class="members-list">-</div>
+            <div class="messages"></div>
+            <form class="message-form" onsubmit="return false;">
+                <input class="message-form__input" placeholder="Type a message.." type="text" />
+                <input class="message-form__button" value="Send" type="submit" />
         </section>
     </div>
     <script type="text/javascript" src="java.js"></script>
