@@ -125,19 +125,6 @@ function addMessageToListDOM(text, member) {
   el.appendChild(createMessageElement(text, member));
   if (wasTop) {
     el.scrollTop = el.scrollHeight - el.clientHeight;
+    delete el.scrollTop;
   }
-}
-
-DOM.form.addEventListener('submit', sendMessage);
- 
-function sendMessage() {
- const value = DOM.input.value;
- if (value === '') {
-   return;
- }
- DOM.input.value = '';
- drone.publish({
-   room: 'observable-room',
-   message: value,
- });
 }
