@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <script src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -20,19 +20,21 @@
                 <li><a href="index2.html">Community</a></li>
             </ul>
             <ul>
-                <li><img src="msulogo.png" id="MSUlogo"></img></li>
+                <li><img src="msulogo.png" alt="Logo" id="MSUlogo"/></li>
             </ul>
         </nav>
         <section>
+            <h2>Chat Room</h2>
             <div class="members-count">-</div>
             <div class="members-list">-</div>
             <div class="messages"></div>
             <form class="message-form" onsubmit="return false;">
                 <input class="message-form__input" placeholder="Type a message.." type="text" />
                 <input class="message-form__button" value="Send" type="submit" />
+                </form>
         </section>
     </div>
-    <script type="text/javascript" src="java.js"></script>
+    <script src="java.js"></script>
 </body>
 
 </html>
